@@ -9,7 +9,7 @@
   $cloudfront = 'head -n1 mydesti.txt';
   $img_path = "https://"./$cloudfront."/spider_man.jpg";
   echo "<br>";
-  echo "<img src='${img_path}' width=100 height=100>";
+  echo "<img src='{$img_path}' width=100 height=100>";
 ?>
 </body>
 </html>
