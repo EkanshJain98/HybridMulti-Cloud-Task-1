@@ -1,2 +1,11 @@
+<html>
+
+
 <p>hello this is my terraform html based file</p>
-<img src="spider_man.jpg" width="100" height="100">
+<br>
+<?php
+  $cloudfront = "head -n1 path.txt";
+  $img_path = "https://"./$cloudfront_url."/spider_man.jpg";
+  echo "<img src='${img_path}' width="100" height="100">";
+?>
+    </html>
