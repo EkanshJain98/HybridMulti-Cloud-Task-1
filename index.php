@@ -1,8 +1,7 @@
 <html>
 <body>
 <h1>EKANSH JAIN</h1>
-<h3>KING OG BLOGGING</h3>
-
+  
 <p>hello this is my terraform PHP based file</p>
 <br>
 <?php
